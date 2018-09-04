@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyPackage.DailyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_lat"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:textColor="#222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:background="#ccc"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <TextView
+            android:id="@+id/tv_lon"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:textColor="#222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:background="#ccc"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <TextView
+            android:id="@+id/tv_city"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:textColor="#222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginVertical="16dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"/>
+        <TextView
+            android:id="@+id/tv_temp"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#d25c07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_comment"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>
